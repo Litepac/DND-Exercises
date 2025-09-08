@@ -7,7 +7,7 @@ Console.WriteLine("Hello, World!");
 
 Person person = new()
 {
-    Name = "Rasmus"
+    Name = "Peter"
 };
 
 
