@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rasmu\\Desktop\\DOTNET\\Week2\\Exercise01\\Exercise01.csproj": {}
+    "C:\\Users\\rasmu\\Desktop\\DND-Exercises\\Week2\\Exercise01\\Exercise01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rasmu\\Desktop\\DOTNET\\Week2\\Exercise01\\Exercise01.csproj": {
+    "C:\\Users\\rasmu\\Desktop\\DND-Exercises\\Week2\\Exercise01\\Exercise01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rasmu\\Desktop\\DOTNET\\Week2\\Exercise01\\Exercise01.csproj",
+        "projectUniqueName": "C:\\Users\\rasmu\\Desktop\\DND-Exercises\\Week2\\Exercise01\\Exercise01.csproj",
         "projectName": "Exercise01",
-        "projectPath": "C:\\Users\\rasmu\\Desktop\\DOTNET\\Week2\\Exercise01\\Exercise01.csproj",
+        "projectPath": "C:\\Users\\rasmu\\Desktop\\DND-Exercises\\Week2\\Exercise01\\Exercise01.csproj",
         "packagesPath": "C:\\Users\\rasmu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rasmu\\Desktop\\DOTNET\\Week2\\Exercise01\\obj\\",
+        "outputPath": "C:\\Users\\rasmu\\Desktop\\DND-Exercises\\Week2\\Exercise01\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rasmu\\AppData\\Roaming\\NuGet\\NuGet.Config"
