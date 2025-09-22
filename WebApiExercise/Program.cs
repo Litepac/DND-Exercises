@@ -20,4 +20,5 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+//Rolig test
 app.Run();
