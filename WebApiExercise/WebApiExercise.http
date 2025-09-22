@@ -64,3 +64,94 @@ Transfer-Encoding: chunked
     "status": 404,
     "traceId": "00-ec263e401ec554b6a2f3e216a1d1fac5-4b40b8023d56762c-00"
 }
+
+
+POST {{ContosoPizza_HostAddress}}/pizza/
+Content-Type: application/json
+
+{
+    "name": "Hawaii",
+    "isGlutenFree": false
+}
+
+###
+
+HTTP/1.1 201 Created
+Connection: close
+Content-Type: application/json; charset=utf-8
+Date: Wed, 17 Jan 2024 17:03:02 GMT
+Server: Kestrel
+Location: http://localhost:5192/Pizza/3
+Transfer-Encoding: chunked
+
+{
+    "id": 3,
+    "name": "Hawaii",
+    "isGlutenFree": false
+}
+
+PUT {{ContosoPizza_HostAddress}}/pizza/3
+Content-Type: application/json
+
+{
+    "id": 3,
+    "name": "Hawaiian",
+    "isGlutenFree": false
+}
+
+###
+
+HTTP/1.1 204 No Content
+Connection: close
+Date: Wed, 17 Jan 2024 17:07:30 GMT
+Server: Kestrel
+
+GET {{ContosoPizza_HostAddress}}/pizza/3
+Accept: application/json
+
+###
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Type: application/json; charset=utf-8
+Date: Wed, 17 Jan 2024 17:09:01 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+
+{
+    "id": 3,
+    "name": "Hawaiian",
+    "isGlutenFree": false
+}
+
+DELETE {{ContosoPizza_HostAddress}}/pizza/3
+
+###
+
+HTTP/1.1 204 No Content
+Date: Fri, 02 Apr 2021 23:30:04 GMT
+Server: Kestrel
+
+GET {{ContosoPizza_HostAddress}}/pizza/
+Accept: application/json
+
+###
+
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Date: Fri, 02 Apr 2021 23:31:15 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+
+[
+    {
+        "id": 1,
+        "name": "Classic Italian",
+        "isGlutenFree": false
+    },
+    {
+        "id": 2,
+        "name": "Veggie",
+        "isGlutenFree": true
+    }
+]
