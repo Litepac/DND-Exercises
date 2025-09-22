@@ -5,7 +5,7 @@ Accept: application/json
 
 ###
 
-GET {{ContosoPizza_HostAddress}}/pizza/
+GET {{{{WebApiExercise_HostAddress}}}}/pizza/
 Accept: application/json
 
 ###
@@ -30,7 +30,7 @@ Transfer-Encoding: chunked
     }
 ]
 
-GET {{ContosoPizza_HostAddress}}/pizza/1
+GET {{{{WebApiExercise_HostAddress}}}}/pizza/1
 Accept: application/json
 
 ###
@@ -47,7 +47,7 @@ Transfer-Encoding: chunked
     "isGlutenFree": false
 }
 
-GET {{ContosoPizza_HostAddress}}/pizza/5
+GET {{{{WebApiExercise_HostAddress}}}}/pizza/5
 Accept: application/json
 
 ###
@@ -66,7 +66,7 @@ Transfer-Encoding: chunked
 }
 
 
-POST {{ContosoPizza_HostAddress}}/pizza/
+POST {{{{WebApiExercise_HostAddress}}}}/pizza/
 Content-Type: application/json
 
 {
@@ -90,7 +90,7 @@ Transfer-Encoding: chunked
     "isGlutenFree": false
 }
 
-PUT {{ContosoPizza_HostAddress}}/pizza/3
+PUT {{{{WebApiExercise_HostAddress}}}}/pizza/3
 Content-Type: application/json
 
 {
@@ -106,7 +106,7 @@ Connection: close
 Date: Wed, 17 Jan 2024 17:07:30 GMT
 Server: Kestrel
 
-GET {{ContosoPizza_HostAddress}}/pizza/3
+GET {{{{WebApiExercise_HostAddress}}}}/pizza/3
 Accept: application/json
 
 ###
@@ -124,7 +124,7 @@ Transfer-Encoding: chunked
     "isGlutenFree": false
 }
 
-DELETE {{ContosoPizza_HostAddress}}/pizza/3
+DELETE {{{{WebApiExercise_HostAddress}}}}/pizza/3
 
 ###
 
@@ -132,7 +132,7 @@ HTTP/1.1 204 No Content
 Date: Fri, 02 Apr 2021 23:30:04 GMT
 Server: Kestrel
 
-GET {{ContosoPizza_HostAddress}}/pizza/
+GET {{{{WebApiExercise_HostAddress}}}}/pizza/
 Accept: application/json
 
 ###
