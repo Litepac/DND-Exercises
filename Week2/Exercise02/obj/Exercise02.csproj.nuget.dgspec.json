@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rasmu\\Desktop\\DND-Exercises\\Week2\\Exercise02\\Exercise02.csproj": {}
+    "C:\\Users\\rasmu\\Desktop\\DOTNET\\Week2\\Exercise02\\Exercise02.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rasmu\\Desktop\\DND-Exercises\\Week2\\Exercise02\\Exercise02.csproj": {
+    "C:\\Users\\rasmu\\Desktop\\DOTNET\\Week2\\Exercise02\\Exercise02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rasmu\\Desktop\\DND-Exercises\\Week2\\Exercise02\\Exercise02.csproj",
+        "projectUniqueName": "C:\\Users\\rasmu\\Desktop\\DOTNET\\Week2\\Exercise02\\Exercise02.csproj",
         "projectName": "Exercise02",
-        "projectPath": "C:\\Users\\rasmu\\Desktop\\DND-Exercises\\Week2\\Exercise02\\Exercise02.csproj",
+        "projectPath": "C:\\Users\\rasmu\\Desktop\\DOTNET\\Week2\\Exercise02\\Exercise02.csproj",
         "packagesPath": "C:\\Users\\rasmu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rasmu\\Desktop\\DND-Exercises\\Week2\\Exercise02\\obj\\",
+        "outputPath": "C:\\Users\\rasmu\\Desktop\\DOTNET\\Week2\\Exercise02\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rasmu\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\rasmu\\Desktop\\DND-Exercises\\Week2\\MathLibrary\\MathLibrary.csproj": {
-                "projectPath": "C:\\Users\\rasmu\\Desktop\\DND-Exercises\\Week2\\MathLibrary\\MathLibrary.csproj"
+              "C:\\Users\\rasmu\\Desktop\\DOTNET\\Week2\\MathLibrary\\MathLibrary.csproj": {
+                "projectPath": "C:\\Users\\rasmu\\Desktop\\DOTNET\\Week2\\MathLibrary\\MathLibrary.csproj"
               }
             }
           }
@@ -340,14 +340,14 @@
         }
       }
     },
-    "C:\\Users\\rasmu\\Desktop\\DND-Exercises\\Week2\\MathLibrary\\MathLibrary.csproj": {
+    "C:\\Users\\rasmu\\Desktop\\DOTNET\\Week2\\MathLibrary\\MathLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rasmu\\Desktop\\DND-Exercises\\Week2\\MathLibrary\\MathLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\rasmu\\Desktop\\DOTNET\\Week2\\MathLibrary\\MathLibrary.csproj",
         "projectName": "MathLibrary",
-        "projectPath": "C:\\Users\\rasmu\\Desktop\\DND-Exercises\\Week2\\MathLibrary\\MathLibrary.csproj",
+        "projectPath": "C:\\Users\\rasmu\\Desktop\\DOTNET\\Week2\\MathLibrary\\MathLibrary.csproj",
         "packagesPath": "C:\\Users\\rasmu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rasmu\\Desktop\\DND-Exercises\\Week2\\MathLibrary\\obj\\",
+        "outputPath": "C:\\Users\\rasmu\\Desktop\\DOTNET\\Week2\\MathLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rasmu\\AppData\\Roaming\\NuGet\\NuGet.Config"
